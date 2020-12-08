@@ -1,0 +1,6 @@
+EntityType -10 (Area)
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	      			width  height  Type
+_body 	     1  -160    0   0  1 1 1  0 0 0  0   0 0  0.0	./Image/UserInterface/Area/Mt.Scrap/2.dds       375     150
+_message     0
+_attachment  2     0    0   0  1 1 1  0 0 0  0   0 0  0.0       ./Image/UserInterface/Area/Clear.dds		210     145     0
+_attachment        0    0   0  1 1 1  0 0 0  0   0 0  0.5       ./Image/UserInterface/Area/Mt.Scrap/2QM.dds	375     150     1

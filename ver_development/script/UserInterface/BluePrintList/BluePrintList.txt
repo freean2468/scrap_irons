@@ -1,0 +1,6 @@
+EntityType -7 (BluePrintList)
+       	    use	      Pos         Sca    Rot      Cen    Alpha	Texture adress(Right)	     			    width  height  Type
+_body 	     1     0    0   0    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/BluePrintList/ListBody.dds     290    290
+_message     0
+_attachment  2  -80  -102   0    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/BluePrintList/Up.dds     	      50     45     0 (Up)
+_attachment      80  -102   0    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/BluePrintList/Down.dds          50     45     1 (Down)

@@ -1,0 +1,7 @@
+EntityType 22 (Flower)
+       	    use	    Pos           Sca     Rot     Cen   Alpha 	Texture adress(Left, Right)		        width    height  type
+_body 	     1    0   0     0    1 1 1  0 0 0   0  17 0  1.0	./Image/Characters/Main/Flowers/ÁÙ±â.dds	  40       40
+_message     1    0   0 -0.01    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/MessageWindow/Window.dds   211      130
+_attachment  3    0  10     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Flowers/¾¾¾Ñ1.dds         45       45     0 (ONE)
+_attachment       0  10     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Flowers/¾¾¾Ñ2.dds         45       45     1 (TWO)
+_attachment       0  10     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Flowers/¾¾¾Ñ3.dds         45       45     2 (Three)

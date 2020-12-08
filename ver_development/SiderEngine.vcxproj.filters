@@ -1,0 +1,1395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="EngineBase">
+      <UniqueIdentifier>{ca5932b1-a2af-4ec7-91bc-cf0ddf534a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Wnd&amp;App">
+      <UniqueIdentifier>{1eb7b278-df9c-413f-b39a-08ff84e1f37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\RTTI">
+      <UniqueIdentifier>{abc50e37-05a2-4996-8ce7-c1aa65bdc4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\DirectX">
+      <UniqueIdentifier>{9284ce8c-bfa8-422f-920b-ce7ca3a689c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\MessageProcessing">
+      <UniqueIdentifier>{5ce7e596-a245-434e-bc24-51bc61429310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\etc">
+      <UniqueIdentifier>{deac34d7-337a-4f14-be34-375042de9277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Information">
+      <UniqueIdentifier>{eacc416b-e789-485b-ad27-2695ce6a8dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Camera">
+      <UniqueIdentifier>{7806b8e3-f3ac-488d-a06f-979a464e3ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Camera\Manager">
+      <UniqueIdentifier>{96045163-2027-4097-8a5b-38b487e48dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Terrain">
+      <UniqueIdentifier>{0cffbcb8-4c89-4a7d-a77a-eac976b55ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle">
+      <UniqueIdentifier>{d9b9cd36-fd9d-4c51-9fe8-56f9aff1dabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Base">
+      <UniqueIdentifier>{88026fc2-05f6-4d5b-8d8b-8c810e125b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived">
+      <UniqueIdentifier>{94317218-9c71-4f7b-b41f-519d4723f720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived\Firework">
+      <UniqueIdentifier>{7b6e0a6c-ce0c-447e-8d6d-95f220d1538d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived\ParticleGun">
+      <UniqueIdentifier>{368544b2-dd6a-49dc-9dda-5a8f13441e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived\Dirt">
+      <UniqueIdentifier>{2d4c2cb3-46f1-4568-8fe1-6cf4659d1bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived\Dirt\Snow">
+      <UniqueIdentifier>{6c86bccb-c2d6-441b-b4f8-988caba6c8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived\Exhaust">
+      <UniqueIdentifier>{5f3d0de7-5071-433a-93f1-d83e942d3ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Particle\Drived\Kindling">
+      <UniqueIdentifier>{e168a434-f7a5-4747-acdf-fb0bd8f662f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\script">
+      <UniqueIdentifier>{1e6fad0e-b209-4824-9533-fbe00227cc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object">
+      <UniqueIdentifier>{986bdacc-5508-40e1-bb9f-6ea976559d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity">
+      <UniqueIdentifier>{0380908f-8147-4264-9c68-ef76b1e236cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Base">
+      <UniqueIdentifier>{142d45e2-c73d-4372-98ee-b9f1e6e7d7db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived">
+      <UniqueIdentifier>{b0a36e6a-01ae-471b-bd5c-807cb5cf6907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters">
+      <UniqueIdentifier>{5f894ef3-80ef-4fa4-b507-22f00f0da6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Base">
+      <UniqueIdentifier>{80135601-4c2a-4b21-9bbf-543f837b3c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived">
+      <UniqueIdentifier>{c2a4715a-c3f6-493f-be71-02ec553847f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy">
+      <UniqueIdentifier>{3d4e74b7-26c6-41ca-9ee1-f0168677aea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\Worker">
+      <UniqueIdentifier>{107293cf-62d9-4f68-b1e3-8b3870b15635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\Worker\States">
+      <UniqueIdentifier>{77221238-e8e1-4246-b0e3-33ce3a27b9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKid">
+      <UniqueIdentifier>{536de66c-9713-44e0-ada9-1a0f15ba10aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKid\States">
+      <UniqueIdentifier>{6225379d-7012-47e7-a08c-2933659167d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\MiniWorker">
+      <UniqueIdentifier>{c060f879-c3b0-4808-b458-b16d510428f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\MiniWorker\State">
+      <UniqueIdentifier>{bc471d17-49eb-4591-a76e-fb9d92db57e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\GateKeeper">
+      <UniqueIdentifier>{08c2ae82-f08c-40ec-a7f4-a300a8689452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\GateKeeper\States">
+      <UniqueIdentifier>{91b85b0b-c50d-40cc-aaec-0050747b17e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKing">
+      <UniqueIdentifier>{9e74efda-8003-43a7-97ff-95a0cba18284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKing\State">
+      <UniqueIdentifier>{a397f33e-c20f-4c8d-a713-a0e06022b208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve">
+      <UniqueIdentifier>{78884d54-3829-483b-adbe-7383b03f1784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Woowo">
+      <UniqueIdentifier>{9368a292-2b69-4b9f-9310-1d26de0ad9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Woowo\States">
+      <UniqueIdentifier>{80c0a0d0-de5e-42fe-9ad0-c6eac8519d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Yawo">
+      <UniqueIdentifier>{5e5478b6-442b-4bf3-b6e2-a844e874cc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Yawo\States">
+      <UniqueIdentifier>{f6cfb1e0-c099-482d-a217-929dee3e0971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Kirit">
+      <UniqueIdentifier>{9648a1fa-7083-423b-a1cf-defd8c7cb46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Kirit\States">
+      <UniqueIdentifier>{4f21d232-641d-4b57-b8c7-359e7e7d5fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Wagoo">
+      <UniqueIdentifier>{61879f12-7e95-48e3-bb17-662653add602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Wagoo\States">
+      <UniqueIdentifier>{f6dd2158-3f6b-41cd-a3e8-968b61671594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Tinkle">
+      <UniqueIdentifier>{a8cc31c4-e4d9-4097-a2e1-20e0d10931b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Tinkle\States">
+      <UniqueIdentifier>{70adf92e-2c88-40c9-96a3-979cf65dd93a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main">
+      <UniqueIdentifier>{79d12fb2-558a-4c37-8b64-12f687cc2add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Hero">
+      <UniqueIdentifier>{871d992c-fd32-4589-9608-86bc8fa74ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Hero\States">
+      <UniqueIdentifier>{42ab0c50-6de2-4d06-a735-1f1e7c91541b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Flower">
+      <UniqueIdentifier>{b57148fe-d05e-434f-8177-ed344ad55ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Flower\States">
+      <UniqueIdentifier>{f5a1e833-8b15-44f9-9734-9f5b2a603990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Cart">
+      <UniqueIdentifier>{15f2ffa6-98fe-4143-8002-fd8eff86ae11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Cart\States">
+      <UniqueIdentifier>{726d5afd-7de0-414f-899a-6108b93978aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps">
+      <UniqueIdentifier>{fbd43fde-ea47-483d-b8a9-56067e7430f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\WorldMap">
+      <UniqueIdentifier>{ee0572ba-102f-4633-8040-07b07ccec76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\WorldMap\States">
+      <UniqueIdentifier>{fc19e9d9-2f0b-49cf-a80a-76df10b68622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\Home">
+      <UniqueIdentifier>{0d9be770-c52c-4d30-87d9-3e188b14fbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\Mt.Scrap">
+      <UniqueIdentifier>{c54c362e-2c2e-498a-b35d-6f9e7d38a344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\Mt.Scrap\States">
+      <UniqueIdentifier>{64b561d0-3011-4f03-a01d-063060f2ff63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\Furnace">
+      <UniqueIdentifier>{9e973d59-8046-4c2c-b5a3-c364336aa455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\Chimney">
+      <UniqueIdentifier>{9cb943a2-b16c-4ad4-8e21-56ec8418ef10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\Chimney\ChimneyOwnedStates">
+      <UniqueIdentifier>{34c3da82-2f59-4e5f-bb07-182cbeb4391d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\GoodHope">
+      <UniqueIdentifier>{53c17c02-d8bf-4a44-a013-4d4ef310660e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\GoodHope\GoodHopeOwnedStates">
+      <UniqueIdentifier>{03a20ba4-2921-4730-9878-fae4c34688e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\DustBridge">
+      <UniqueIdentifier>{cbbbb4d2-6fe6-4bf0-8e5f-7e23d44dafa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Maps\DustBridge\DustBrkdgeOwnedStates">
+      <UniqueIdentifier>{9cf225f9-bdeb-43b2-863b-a8c03310fc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface">
+      <UniqueIdentifier>{bc8402a4-7432-475b-94ec-3111642a01a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Interact">
+      <UniqueIdentifier>{ca4da3c8-3ff5-4c09-bf20-ad5cae4f8a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Interact\States">
+      <UniqueIdentifier>{9358b992-0e2c-4ab2-a2c8-634f8b0587c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Inventory">
+      <UniqueIdentifier>{88acd7e3-79a6-42d4-8376-d6a9f59b6aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Inventory\States">
+      <UniqueIdentifier>{30775962-17a8-4614-95ed-5c6fbdb03826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintList">
+      <UniqueIdentifier>{bd4294cc-d6aa-4fc7-b476-3fda7d77da66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintList\States">
+      <UniqueIdentifier>{fb207bc9-efb0-4271-9ea6-03cb0a78e4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintScroll">
+      <UniqueIdentifier>{ae655ac7-f90a-42ff-aac0-d49df1084251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintScroll\States">
+      <UniqueIdentifier>{4b7e647c-c6ae-42bb-9bab-9104e6f0dbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Producing">
+      <UniqueIdentifier>{dadc9f0d-95e6-43a3-8cbb-55c59c6eabe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Producing\States">
+      <UniqueIdentifier>{ebf818a1-d829-4bfa-9743-367183900a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\MainMenu">
+      <UniqueIdentifier>{2d302e83-6e36-45ae-b822-cc862c483573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Logo">
+      <UniqueIdentifier>{c465abd5-b012-4068-ab25-9bcd9f566d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\ProductionMenu">
+      <UniqueIdentifier>{f65cb806-d03f-456c-8eed-8ae10f81b11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\ProductionMenu\States">
+      <UniqueIdentifier>{d93515bc-479e-48ca-9ece-daf78a1b016b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Area">
+      <UniqueIdentifier>{71d3b5cb-89d4-4883-a3e6-3076528f413d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Area\States">
+      <UniqueIdentifier>{250c58b8-3720-47f7-8367-6c8e57cb9cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Commander">
+      <UniqueIdentifier>{54795769-16f7-4388-912a-3afa2e080131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Commander\States">
+      <UniqueIdentifier>{6ca60175-754e-4292-b94f-5ed11f9aa425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\SmallInfo">
+      <UniqueIdentifier>{2a6ab939-eb81-4077-b929-64d3cac474c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\SmallInfo\States">
+      <UniqueIdentifier>{7f7b8dc9-06a0-4683-9b58-905d7fc1edd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Intro">
+      <UniqueIdentifier>{552d5b9c-0af4-4600-93ed-94aeebf79c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\UserInterface\Intro\States">
+      <UniqueIdentifier>{0d72c167-e159-40ec-a1a2-cac68b82499e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Items">
+      <UniqueIdentifier>{0ca518e8-088a-470a-aaaf-7256ff4cc969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Items\Drived">
+      <UniqueIdentifier>{e523897e-116b-4551-9f5a-ccdf008f8a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Items\Base">
+      <UniqueIdentifier>{cbf62875-0188-433d-a8be-954eb52165e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Items\Base\States">
+      <UniqueIdentifier>{48c76be7-5b1a-4610-95ed-403b9d26d083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects">
+      <UniqueIdentifier>{f715b990-a1fd-41b3-9cd2-ed01f398646e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Base">
+      <UniqueIdentifier>{4d7a32ab-4e8d-4e30-b526-1f0a48926c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived">
+      <UniqueIdentifier>{10f53bcf-7d3e-4e47-a969-e019967ac04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\QuestionMark">
+      <UniqueIdentifier>{bdb00fa9-1009-4d6e-9be2-a930d728f772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\QuestionMark\QuestionMarkOwnedStates">
+      <UniqueIdentifier>{4b84026c-9d51-47d1-a6e3-1fca53d7a908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\DiggyEffect">
+      <UniqueIdentifier>{d3daeb88-acc5-477c-9f15-fa4557a0659c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\DiggyEffect\States">
+      <UniqueIdentifier>{e926b4e4-0d38-4c82-b37a-0df77bf52432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\DamageEffect">
+      <UniqueIdentifier>{18a48d9d-5c44-4d6d-8d20-306b4eb76501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\DamageEffect\DamageEffectOwnedStates">
+      <UniqueIdentifier>{cedfc2db-7e06-4ec0-9262-91c703d98345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\SparksEffect">
+      <UniqueIdentifier>{af24b237-cd21-426a-b89b-389081179b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\SparksEffect\States">
+      <UniqueIdentifier>{99f65281-ce20-4441-a184-d46ea524fc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\RayEffect">
+      <UniqueIdentifier>{9748acc0-30c8-4d13-a0aa-2a6d5abeca86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\RayEffect\States">
+      <UniqueIdentifier>{c9a7e1f0-fa64-4bca-9781-7335f37eafbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\LightEffect">
+      <UniqueIdentifier>{5c74f37a-6580-4561-b962-5a401e65b458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\LightEffect\States">
+      <UniqueIdentifier>{5f7fac8c-1389-486c-91af-a3ae65aee67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\DustEffect">
+      <UniqueIdentifier>{067985b6-0149-4e26-b1d1-1afe494ce067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\DustEffect\State">
+      <UniqueIdentifier>{e0d7765a-f282-4bb5-84a8-58cc52ccaeb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\BoldDustEffect">
+      <UniqueIdentifier>{374ccc22-d623-4282-910b-a52a0886c195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\OrganEntity\Drived\Effects\Drived\BoldDustEffect\State">
+      <UniqueIdentifier>{be6f08c6-6dab-4aa8-a481-a70a5569fe17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\BaseClass">
+      <UniqueIdentifier>{a86f520f-d55f-497b-b390-983faf01d83c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\organ">
+      <UniqueIdentifier>{c5f1ac88-3a40-4b4c-a911-d27b30605278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\organ\Base">
+      <UniqueIdentifier>{2c8a2955-ca5a-4080-8784-913bba577198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\organ\Drived">
+      <UniqueIdentifier>{693aa51e-ab22-426d-8393-d51af8be6b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\Object\Manager">
+      <UniqueIdentifier>{dc9fd17f-fc0f-4aaa-9de6-f85eec3e3452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\State">
+      <UniqueIdentifier>{71e0653f-d53c-42cb-8d39-69158096a69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\State\BaseMsgClass">
+      <UniqueIdentifier>{d80b7fa6-49bb-4026-a942-35a10e463546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\State\BaseMsgClass\Telegram">
+      <UniqueIdentifier>{7021f6c2-3e4b-456a-8b32-b180c4270e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\State\BaseGameEntityClass">
+      <UniqueIdentifier>{9979efcc-01d0-4e54-8113-3b158ec8ce54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\State\EntityID">
+      <UniqueIdentifier>{a576f8ad-66fa-449e-a50a-62c947b9bf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\State\DataBase">
+      <UniqueIdentifier>{8d781d8a-6846-4675-b3d2-75000631f84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\BaseManager">
+      <UniqueIdentifier>{dfcbdc32-aee6-4b36-b7d8-52278a0d92b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\SystemFrame">
+      <UniqueIdentifier>{e616394d-49f1-49b0-a6e6-1b125852dafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\EffectManager">
+      <UniqueIdentifier>{7279bab5-141f-447c-87d3-81c8ad04d930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\SystemDefine">
+      <UniqueIdentifier>{082247fa-bcb2-4ebc-9d95-16fac0572796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\MouseManager">
+      <UniqueIdentifier>{9a83a1fa-0889-4579-a591-4be94584ffe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineBase\MusicManager">
+      <UniqueIdentifier>{ed29e375-8c6e-4c5d-a687-145e51e684e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{733c0e71-88d7-4f57-afb2-c990edd2729c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section">
+      <UniqueIdentifier>{f010943b-1372-4c45-a9b1-1a5b3c7fa484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\Manager">
+      <UniqueIdentifier>{f723f1ab-cfa1-4694-b532-607949318e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Section\States">
+      <UniqueIdentifier>{d6dc5cf0-c04f-4715-9324-d7a81e4b6c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event">
+      <UniqueIdentifier>{98e7d9a1-4ef8-48ee-b63e-70d94dd26561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\WorldMap">
+      <UniqueIdentifier>{95906b75-f643-4d24-936a-ee0c22ca696d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\WorldMap\States">
+      <UniqueIdentifier>{e7855ec8-bbd0-4a94-a264-6a0025d6590a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Manager">
+      <UniqueIdentifier>{9b22670a-518d-47c3-a051-42a1cfc6d163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Stage">
+      <UniqueIdentifier>{08c6a42e-5760-4f17-a7c4-8d52f53c2e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Event\Stage\States">
+      <UniqueIdentifier>{35d3a897-809e-412f-81f2-91ea1021c797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\StageManager">
+      <UniqueIdentifier>{0dd7a739-2065-4d5d-a4b1-3ce197ffb82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\UIManager">
+      <UniqueIdentifier>{0659f7a9-8123-4df9-ae9d-e1ee84c3ca0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\AIManager">
+      <UniqueIdentifier>{19018af2-4ae5-4853-91e0-c72373bc6745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{f7fa580c-99cc-450c-9aa9-d1886d7beace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Array">
+      <UniqueIdentifier>{b455c50d-57fa-4d86-b28f-d74ebaecc52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Queue">
+      <UniqueIdentifier>{fc11dad6-ba1e-474f-96df-82a48cfbcc57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Stack">
+      <UniqueIdentifier>{937d5888-2c78-430d-ad42-a8e7917e3f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Tree">
+      <UniqueIdentifier>{d4d9dc81-0d9c-4f37-a852-8f8eddb011b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\HashTable">
+      <UniqueIdentifier>{7225cf4f-ee2c-42bd-a2be-8a097c0da54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Graph">
+      <UniqueIdentifier>{51cb06ec-f42f-45a8-a6ab-6c9becd8d258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Linked List">
+      <UniqueIdentifier>{fb8263fa-a0bf-4412-ac0c-1a1fab582fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Bitvector">
+      <UniqueIdentifier>{38310be2-6018-4dc5-9c3c-64eceb6bd639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics">
+      <UniqueIdentifier>{39cb88ff-34f2-40f7-9f48-40a6c5d96648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math &amp; Physics\Manager">
+      <UniqueIdentifier>{68397d15-af4f-4e3c-91c0-cfc2fbae1475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{d06b9ff0-8ca1-4b9f-8129-289b1968014d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3126dff0-fe7b-49ff-8af0-6ccddd18d1be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine_System\App.cpp">
+      <Filter>EngineBase\Wnd&amp;App</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Wnd.cpp">
+      <Filter>EngineBase\Wnd&amp;App</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Object.cpp">
+      <Filter>EngineBase\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StdAfx.cpp">
+      <Filter>EngineBase\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\D3D.cpp">
+      <Filter>EngineBase\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\dsutil.cpp">
+      <Filter>EngineBase\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\dxutil.cpp">
+      <Filter>EngineBase\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\View.cpp">
+      <Filter>EngineBase\MessageProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Coordinates.cpp">
+      <Filter>EngineBase\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\String.cpp">
+      <Filter>EngineBase\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Timer.cpp">
+      <Filter>EngineBase\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Information.cpp">
+      <Filter>EngineBase\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Camera.cpp">
+      <Filter>EngineBase\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\CameraManager.cpp">
+      <Filter>EngineBase\Camera\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Terrain.cpp">
+      <Filter>EngineBase\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Particle.cpp">
+      <Filter>EngineBase\Particle\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Firework.cpp">
+      <Filter>EngineBase\Particle\Drived\Firework</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\ParticleGun.cpp">
+      <Filter>EngineBase\Particle\Drived\ParticleGun</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Dirt.cpp">
+      <Filter>EngineBase\Particle\Drived\Dirt</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Snow.cpp">
+      <Filter>EngineBase\Particle\Drived\Dirt\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Exhaust.cpp">
+      <Filter>EngineBase\Particle\Drived\Exhaust</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Kindling.cpp">
+      <Filter>EngineBase\Particle\Drived\Kindling</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Script.cpp">
+      <Filter>EngineBase\script</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\OrganEntity.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\CharacterEntity.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Worker.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\WorkerOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\Worker\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustKid.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKid</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustKidOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKid\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\MiniWorker.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\MiniWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\MiniWorkerOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\MiniWorker\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\GateKeeper.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\GateKeeper</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\GateKeeperOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\GateKeeper\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustKing.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKing</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustKingOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKing\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Woowo.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Woowo</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\WoowoOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Woowo\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Yawo.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Yawo</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\YawoOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Yawo\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Kirit.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Kirit</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\KiritOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Kirit\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Wagoo.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Wagoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\WagooOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Wagoo\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Tinkle.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Tinkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\TinkleOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Tinkle\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Hero.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\HeroOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Hero\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Flower.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\FlowerOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Flower\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Cart.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Cart</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\CartOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Cart\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\WorldMap.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\WorldMapOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\WorldMap\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageHome.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Home</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageMountain.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Mt.Scrap</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageMountainOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Mt.Scrap\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageFurnace.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Furnace</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageChimney.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Chimney</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageChimenyOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Chimney\ChimneyOwnedStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageGoodHope.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\GoodHope</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageGoodHopeOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\GoodHope\GoodHopeOwnedStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageDustBridge.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\DustBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageDustBridgeOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\DustBridge\DustBrkdgeOwnedStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Interact.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\InteractOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Interact\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Inventory.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\InventoryOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Inventory\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BluePrintList.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintList</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BluePrintListOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintList\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BluePrintScroll.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintScroll</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BluePrintScrollOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintScroll\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Producing.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Producing</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\ProducingOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Producing\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\MainMenu.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Logo.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Production.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\ProductionMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\ProductionOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\ProductionMenu\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Area.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\AreaOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Area\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Commander.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\CommanderOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Commander\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\SmallInfo.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\SmallInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\SmallInfoOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\SmallInfo\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Intro.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\IntroOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Intro\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BluePrint.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Items\Drived</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Item.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Items\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\ItemOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Items\Base\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BaseEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\QuestionMark.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\QuestionMark</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\QuestionMarkOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\QuestionMark\QuestionMarkOwnedStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DiggyEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DiggyEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DiggyEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DiggyEffect\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DamageEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DamageEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DamageEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DamageEffect\DamageEffectOwnedStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\SparksEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\SparksEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\SparksEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\SparksEffect\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\RayEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\RayEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\RayEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\RayEffect\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\LightEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\LightEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\LightEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\LightEffect\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DustEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DustEffect\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BoldDustEffect.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\BoldDustEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BoldDustEffectOwnedStates.cpp">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\BoldDustEffect\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BaseObject.cpp">
+      <Filter>EngineBase\Object\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Organ.cpp">
+      <Filter>EngineBase\Object\organ\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Attachment.cpp">
+      <Filter>EngineBase\Object\organ\Drived</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Body.cpp">
+      <Filter>EngineBase\Object\organ\Drived</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Message.cpp">
+      <Filter>EngineBase\Object\organ\Drived</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\ObjectManager.cpp">
+      <Filter>EngineBase\Object\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BaseMessageDispatcher.cpp">
+      <Filter>EngineBase\State\BaseMsgClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BaseGameEntity.cpp">
+      <Filter>EngineBase\State\BaseGameEntityClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\EntityDB.cpp">
+      <Filter>EngineBase\State\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\ItemDB.cpp">
+      <Filter>EngineBase\State\DataBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\BaseManager.cpp">
+      <Filter>EngineBase\BaseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\SystemFrame.cpp">
+      <Filter>EngineBase\SystemFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\EffectManager.cpp">
+      <Filter>EngineBase\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\MouseManager.cpp">
+      <Filter>EngineBase\MouseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System\MusicManager.cpp">
+      <Filter>EngineBase\MusicManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\SectionOwnedStates.cpp">
+      <Filter>Logic\Section\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\EventWorldMap.cpp">
+      <Filter>Logic\Event\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\EventWorldMapOwnedStates.cpp">
+      <Filter>Logic\Event\WorldMap\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\EventManager.cpp">
+      <Filter>Logic\Event\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\EventStage.cpp">
+      <Filter>Logic\Event\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\EventStageOwnedStates.cpp">
+      <Filter>Logic\Event\Stage\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\StageManager.cpp">
+      <Filter>Logic\StageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\UIManager.cpp">
+      <Filter>Logic\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\AIManager.cpp">
+      <Filter>Logic\AIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Data Structures\HashFuntion.cpp">
+      <Filter>Data Structures\HashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Data Structures\Bitvector.cpp">
+      <Filter>Data Structures\Bitvector</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Math&amp;Physics\MathManager.cpp">
+      <Filter>Math &amp; Physics\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine_System\App.h">
+      <Filter>EngineBase\Wnd&amp;App</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Wnd.h">
+      <Filter>EngineBase\Wnd&amp;App</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Object.h">
+      <Filter>EngineBase\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Stdafx.h">
+      <Filter>EngineBase\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\D3D.h">
+      <Filter>EngineBase\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\View.h">
+      <Filter>EngineBase\MessageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Coordinates.h">
+      <Filter>EngineBase\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\CrudeTImer.h">
+      <Filter>EngineBase\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\String.h">
+      <Filter>EngineBase\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Timer.h">
+      <Filter>EngineBase\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Information.h">
+      <Filter>EngineBase\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Camera.h">
+      <Filter>EngineBase\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\CameraManager.h">
+      <Filter>EngineBase\Camera\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Terrain.h">
+      <Filter>EngineBase\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Particle.h">
+      <Filter>EngineBase\Particle\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Firework.h">
+      <Filter>EngineBase\Particle\Drived\Firework</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\ParticleGun.h">
+      <Filter>EngineBase\Particle\Drived\ParticleGun</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Dirt.h">
+      <Filter>EngineBase\Particle\Drived\Dirt</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Snow.h">
+      <Filter>EngineBase\Particle\Drived\Dirt\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Exhaust.h">
+      <Filter>EngineBase\Particle\Drived\Exhaust</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Kindling.h">
+      <Filter>EngineBase\Particle\Drived\Kindling</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Script.h">
+      <Filter>EngineBase\script</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\OrganEntity.h">
+      <Filter>EngineBase\Object\OrganEntity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\CharacterEntity.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Worker.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\WorkerOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\Worker\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DustKid.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKid</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DustKidOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKid\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\MiniWorker.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\MiniWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\MiniWorkerOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\MiniWorker\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\GateKeeper.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\GateKeeper</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\GateKeeperOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\GateKeeper\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DustKing.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKing</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DustKingOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Enemy\DustKing\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Woowo.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Woowo</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\WoowoOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Woowo\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Yawo.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Yawo</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\YawoOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Yawo\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Kirit.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Kirit</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\KiritOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Kirit\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Wagoo.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Wagoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\WagooOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Wagoo\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Tinkle.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Tinkle</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\TinkleOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Serve\Tinkle\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Hero.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\HeroOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Hero\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Flower.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\FlowerOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Flower\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Cart.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Cart</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\CartOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Characters\Drived\Main\Cart\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\WorldMap.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\WorldMapOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\WorldMap\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageHome.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Home</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageMountain.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Mt.Scrap</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageMountainOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Mt.Scrap\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageFurnace.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Furnace</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageChimney.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Chimney</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageChimneyOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\Chimney\ChimneyOwnedStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageGoodHope.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\GoodHope</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageGoodHopeOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\GoodHope\GoodHopeOwnedStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageDustBridge.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\DustBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StageDustBridgeOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Maps\DustBridge\DustBrkdgeOwnedStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Interact.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\InteractOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Interact\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Inventory.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\InventoryOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Inventory\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BluePrintList.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintList</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BluePrintListOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintList\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BluePrintScroll.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintScroll</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BluePrintScrollOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\BluePrintScroll\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Producing.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Producing</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\ProducingOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Producing\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\MainMenu.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Logo.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Production.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\ProductionMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\ProductionOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\ProductionMenu\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Area.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\AreaOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Area\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Commander.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\CommanderOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Commander\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\SmallInfo.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\SmallInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\SmallInfoOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\SmallInfo\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Intro.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\IntroOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\UserInterface\Intro\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BluePrint.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Items\Drived</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Item.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Items\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\ItemOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Items\Base\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BaseEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\QuestionMark.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\QuestionMark</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\QuestionMarkOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\QuestionMark\QuestionMarkOwnedStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DiggyEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DiggyEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DiggyEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DiggyEffect\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DamageEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DamageEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DamageEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DamageEffect\DamageEffectOwnedStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\SparksEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\SparksEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\SparksEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\SparksEffect\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\RayEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\RayEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\RayEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\RayEffect\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\LightEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\LightEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\LightEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\LightEffect\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DustEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DustEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\DustEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\DustEffect\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BoldDustEffect.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\BoldDustEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BoldDustEffectOwnedStates.h">
+      <Filter>EngineBase\Object\OrganEntity\Drived\Effects\Drived\BoldDustEffect\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BaseObject.h">
+      <Filter>EngineBase\Object\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Organ.h">
+      <Filter>EngineBase\Object\organ\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Attachment.h">
+      <Filter>EngineBase\Object\organ\Drived</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Body.h">
+      <Filter>EngineBase\Object\organ\Drived</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Message.h">
+      <Filter>EngineBase\Object\organ\Drived</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\ObjectManager.h">
+      <Filter>EngineBase\Object\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\State.h">
+      <Filter>EngineBase\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\StateMachine.h">
+      <Filter>EngineBase\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BaseMessageDispatcher.h">
+      <Filter>EngineBase\State\BaseMsgClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\MessageTypes.h">
+      <Filter>EngineBase\State\BaseMsgClass\Telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\Telegram.h">
+      <Filter>EngineBase\State\BaseMsgClass\Telegram</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BaseGameEntity.h">
+      <Filter>EngineBase\State\BaseGameEntityClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\EntityID.h">
+      <Filter>EngineBase\State\EntityID</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\EntityDB.h">
+      <Filter>EngineBase\State\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\ItemDB.h">
+      <Filter>EngineBase\State\DataBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\BaseManager.h">
+      <Filter>EngineBase\BaseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\SystemFrame.h">
+      <Filter>EngineBase\SystemFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\EffectManager.h">
+      <Filter>EngineBase\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\EffectType.h">
+      <Filter>EngineBase\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\SystemDefines.h">
+      <Filter>EngineBase\SystemDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\MouseManager.h">
+      <Filter>EngineBase\MouseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System\MusicManager.h">
+      <Filter>EngineBase\MusicManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\Section.h">
+      <Filter>Logic\Section</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\SectionManager.h">
+      <Filter>Logic\Section\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\SectionOwnedStates.h">
+      <Filter>Logic\Section\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\EventWorldMap.h">
+      <Filter>Logic\Event\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\EventWorldMapOwnedStates.h">
+      <Filter>Logic\Event\WorldMap\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\EventManager.h">
+      <Filter>Logic\Event\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\EventStage.h">
+      <Filter>Logic\Event\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\EventStageOwnedStates.h">
+      <Filter>Logic\Event\Stage\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\StageManager.h">
+      <Filter>Logic\StageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\UIManager.h">
+      <Filter>Logic\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Logic\AIManager.h">
+      <Filter>Logic\AIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Array.h">
+      <Filter>Data Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Array2D.h">
+      <Filter>Data Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Array3D.h">
+      <Filter>Data Structures\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\AQueue.h">
+      <Filter>Data Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\LQueue.h">
+      <Filter>Data Structures\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\AStack.h">
+      <Filter>Data Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\LStack.h">
+      <Filter>Data Structures\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\BinarySearchTree.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\BinaryTree.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Heap.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Tree.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\TreeIterator.h">
+      <Filter>Data Structures\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\HashEntry.h">
+      <Filter>Data Structures\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\HashFuntion.h">
+      <Filter>Data Structures\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\HashTable.h">
+      <Filter>Data Structures\HashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Graph.h">
+      <Filter>Data Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\GraphArc.h">
+      <Filter>Data Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\GraphNode.h">
+      <Filter>Data Structures\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\DLinkedList.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\DListIterator.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\DListNode.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\SLinkedList.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\SListIterator.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\SListNode.h">
+      <Filter>Data Structures\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Data Structures\Bitvector.h">
+      <Filter>Data Structures\Bitvector</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_Math&amp;Physics\MathManager.h">
+      <Filter>Math &amp; Physics\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseHeader.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineOutline.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="cursor2.cur">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SiderEngine.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

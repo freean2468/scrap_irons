@@ -1,0 +1,10 @@
+EntityType 55 (DUSTKING)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress				     width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Body.dds       400    350
+_message     0    
+_attachment  6    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Sub.dds 	      450    400     0 (Sub)
+_attachment  	  0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Core.dds       300    300     1 (Core)
+_attachment  	 60   20     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Eye.dds	      110    100     2 (Eye)
+_attachment  	 60   20     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Pupil.dds       50     50     3 (Pupil)
+_attachment  	-40  180     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Tiara.dds      250    200     4 (Tiara)
+_attachment  	130 -100     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/King/Hand.dds       210    200     5 (Hand)

@@ -1,0 +1,5 @@
+EntityType 9 (STAGEDUSTBRIDGE)
+       	    use	    Pos              Sca    Rot        Cen       Alpha	Texture adress(Right)				 width   height  Type
+_body 	     1    0     0   0    1   1 1  0 0    0   0    0 0    1.0  ./Image/Maps/DustBridge/DustBridge.dds   		 3200    2400
+_message     0 -500   500   0    1   1 1  0 0    0   0    0 0    1.0  ./Image/UserInterface/MessageWindow/Window.dds 	  500     400
+_attachment  0

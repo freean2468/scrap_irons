@@ -1,0 +1,5 @@
+EntityType 0
+       	    use	    Pos              Sca    Rot     Cen    Alpha		 Texture adress				width  height  Type
+_body 	     1    0    0     0  0.5 0.5 1  0 0 0  0   0 0  1.0	   ./Image/Effects/DustEffect/Dust.dds   		 50     50
+_message     0
+_attachment  0

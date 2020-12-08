@@ -1,0 +1,5 @@
+EntityType 0
+       	    use	    Pos               Sca    Rot     Cen    Alpha		 Texture adress				         width  height  Type
+_body 	     1    0    0     0   1.2  1.2 1  0 0 0  0   0 0  0.5	   ./Image/Effects/LightEffect/Light.dds		 160    160
+_message     0    0  100     0   1.2  1.2 1  0 0 0  0   0 0  0.5	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  0

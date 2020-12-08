@@ -1,0 +1,14 @@
+EntityType 21 (CART)
+       	    use	    Pos           Sca     Rot     Cen   Alpha 	Texture adress(Left, Right)	 		     width    height Type
+_body 	     1    0   0     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/BodyBehind.dds	      140       85
+_message     1    0 150     0   1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/MessageWindow/MessageWindow.dds 211      130
+_attachment 10  -30  25     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/Planter.dds               33       30    0 (Planter)
+_attachment       0  25     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/Pipe.dds	               18       30    1 (Pipe)
+_attachment     -50  25     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/Lumber.dds	               28       31    2 (Lumber)
+_attachment      40  23     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/Nail.dds	               22       26    3 (Nail)
+_attachment      43  -1     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/BodyFront.dds	      220       86    4 (BodyFront)
+_attachment      57 -12     0    1 1 1  0 0 0  -1   0 0  1.0	./Image/Characters/Main/Cart/Pupil.dds		        6        6    5 (Pupil)
+_attachment      50 -27     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/MouseOver.dds	       50       19    6 (MouseOver)
+_attachment      50 -36     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/MouseUnder.dds	       50       19    7 (MouseUnder)
+_attachment     -40 -30     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/WheelLeft.dds             45       36    8 (WheelLeft)
+_attachment      10 -38     0    1 1 1  0 0 0   0   0 0  1.0	./Image/Characters/Main/Cart/WheelRight.dds            18       18    9 (WheelRight)

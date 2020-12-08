@@ -1,0 +1,12 @@
+EntityType 53 (MINIWORKER)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/PointBody.dds       	   1      1
+_message     
+_attachment  8  -65  -70     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Left.dds 	 	  47     45	0 (Left)
+_attachment  	 30  -70     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Right.dds 	          47     40     1 (Right)
+_attachment  	  0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Body.dds	         205    185     2 (Body)
+_attachment    -102   25     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Pipe.dds	          50    100     3 (Pipe)
+_attachment     120  -15     0  1 1 1  0 0 0  90  80 0  1.0	   ./Image/Characters/Enemy/Worker/light.dds	  	 180    180     4 (Light1)
+_attachment     120  -15     0  1 1 1  0 0 0  90  80 0  1.0	   ./Image/Characters/Enemy/Worker/light2.dds	  	 190    175     5 (Light2)
+_attachment      70  -86     0  1 1 1  0 0 0  20 -20 0  1.0	   ./Image/Characters/Enemy/Worker/MouseUnder.dds  	  65     55     6 (MouseUnder)
+_attachment      67  -22     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/MouseUp.dds  	  65     40     7 (MouseOver)

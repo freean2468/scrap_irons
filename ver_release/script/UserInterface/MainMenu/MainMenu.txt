@@ -1,0 +1,12 @@
+EntityType 3 (MAINMENU)
+       	    use	       Pos            Sca           Rot             Cen    Alpha  Texture adress(Right)      	        		width   height   type
+_body 	     1    0     0    0    1   1   1  0           0   0    0    0 0  1.0	./Image/UserInterface/MainMenu/Main.dds                 800     600
+_message     0    0     0    0    1   1   1  0           0   0    0    0 0  1.0	./Image/UserInterface/MessageWindow/MessageWindow.dds	211     130
+_attachment  8 -400   110    0    1   1   1  0       -1.25   0    0    0 0  1.0	./Image/UserInterface/MainMenu/Start.dds                160     440       0 (START)
+_attachment       0   110    0    1   1   1  0           0   0    0    0 0  1.0	./Image/UserInterface/MainMenu/Intro.dds                160     440       1 (INTRO)
+_attachment     400   110    0    1   1   1  0        1.25   0    0    0 0  1.0	./Image/UserInterface/MainMenu/Exit.dds                 160     440       2 (EXIT)
+_attachment       0   200    0    1   1   1  0           0   0    0    0 0  1.0	./Image/UserInterface/MainMenu/Title.dds                719     264       3 (Title)
+_attachment    -200  -200    0    1   1   1  0           0   0  -70  100 0  1.0	./Image/UserInterface/MainMenu/ArrowLeft.dds            300     225       4 (Left)
+_attachment     200  -200    0    1   1   1  0           0   0   70  100 0  1.0	./Image/UserInterface/MainMenu/ArrowRight.dds           300     225       5 (Right) 
+_attachment       0  -150    0  0.8 0.8   1  0           0   0    0    0 0  1.0	./Image/UserInterface/MainMenu/Enter.dds                100      50       6 (Right) 
+_attachment       0   100    0    1 1.5   1  0           0   0    0    0 0  0.4	./Image/UserInterface/MainMenu/Light.dds                700     600       7 (Light)

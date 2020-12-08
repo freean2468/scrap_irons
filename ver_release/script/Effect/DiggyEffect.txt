@@ -1,0 +1,5 @@
+EntityType 0
+       	    use	    Pos         Sca    Rot     Cen    Alpha		 Texture adress				         width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Effects/DiggyEffect/Diggy.dds		  70     70
+_message     0    0  100     0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  0

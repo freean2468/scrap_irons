@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////////////////
+// 안개 효과를 구현하려 한 클래스
+////////////////////////////////////////////////////////////////////////////////
+#ifndef _BackFog_H_
+#define _BackFog_H_
+
+class CBackFog : public CBaseObject{
+public:
+
+public:
+	CBackFog(int id);
+	virtual ~CBackFog();
+
+	virtual void preRender();
+	virtual void postRender();
+};
+
+#endif

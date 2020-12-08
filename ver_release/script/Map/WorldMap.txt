@@ -1,0 +1,24 @@
+EntityType 4 (WorldMap)
+       	    use	     Pos           Sca       Rot       Cen    Alpha	    Texture adress(Right)	       		    width   height Type
+_body 	     1     0    0   0    1   1 1  0 0    0   0    0 0   1.0  ./Image/Maps/WorldMap/WorldMap.dds       		     1600    1200
+_message     0     0    0   0    1   1 1  0 0    0   0    0 0   0.0  ./Image/UserInterface/MessageWindow/MessageWindow.dds    500     300
+_attachment 18  -578 -108   0   30  30 1  0 0    0   0    0 0     0  ./Image/Maps/WorldMap/Point.dds     		       10      10    0 (StagePoint)
+_attachment     -150 -155   0   30  30 1  0 0    0   0    0 0     0  ./Image/Maps/WorldMap/Point.dds          		       10      10    0 (StagePoint) 
+_attachment      376 -145   0   30  30 1  0 0    0   0    0 0     0  ./Image/Maps/WorldMap/Point.dds            	       10      10    0 (StagePoint)
+_attachment      335  230   0   30  30 1  0 0    0   0    0 0     0  ./Image/Maps/WorldMap/Point.dds            	       10      10    0 (StagePoint) 
+_attachment       60  290   0   30  30 1  0 0    0   0    0 0     0  ./Image/Maps/WorldMap/Point.dds             	       10      10    0 (StagePoint) 
+_attachment     -260  310   0   30  30 1  0 0    0   0    0 0     0  ./Image/Maps/WorldMap/Point.dds            	       10      10    0 (StagePoint) 
+_attachment  	-578   38   0    0   0 1  0 0    0   0 -108 0   1.0  ./Image/Maps/WorldMap/Home.dds            		      171      69    1 (Text)
+_attachment  	-150    0   0    0   0 1  0 0    0   0 -155 0   1.0  ./Image/Maps/WorldMap/ScrapMountain.dds    	      265      69    1 (Text)
+_attachment  	 390  -10   0    0   0 1  0 0    0   0 -145 0   1.0  ./Image/Maps/WorldMap/Furnace.dds  		      239      69    1 (Text)
+_attachment  	 335  340   0    0   0 1  0 0    0   0  230 0   1.0  ./Image/Maps/WorldMap/Chimney.dds     		      256      69    1 (Text)
+_attachment  	  60  360   0    0   0 1  0 0    0   0  290 0   1.0  ./Image/Maps/WorldMap/DustBridge.dds 		      321      69    1 (Text)
+_attachment  	-260  380   0    0   0 1  0 0    0   0  310 0   1.0  ./Image/Maps/WorldMap/GoodHope.dds 		      308      69    1 (Text)
+_attachment  	-648  108   0    1   1 1  0 0  0.3   0    0 0   0.1  ./Image/Maps/WorldMap/ºû.dds              	              300     800    2 (Light)
+_attachment  	-170  135   0    2   1 1  0 0  0.3   0    0 0   0.1  ./Image/Maps/WorldMap/ºû.dds              		      300     800    2 (Light)
+_attachment  	 326  100   0    1   1 1  0 0  0.3   0    0 0   0.1  ./Image/Maps/WorldMap/ºû.dds              		      300     800    2 (Light)
+_attachment  	 285  480   0    1   1 1  0 0  0.3   0    0 0   0.1  ./Image/Maps/WorldMap/ºû.dds              		      300     800    2 (Light)
+_attachment  	   0  510   0    2   1 1  0 0  0.3   0    0 0   0.1  ./Image/Maps/WorldMap/ºû.dds         		      300     800    2 (Light)
+_attachment  	-365  540   0    1   1 1  0 0  0.3   0    0 0   0.1  ./Image/Maps/WorldMap/ºû.dds               	      300     800    2 (Light)
+
+	         

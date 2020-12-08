@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6519D381-E562-4E13-A002-EAF69C2F36A5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30712.155</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)SiderEngine.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)SiderEngine.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)SiderEngine.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine_Data Structures\Bitvector.cpp" />
+    <ClCompile Include="Engine_Data Structures\HashFuntion.cpp" />
+    <ClCompile Include="Engine_Logic\AIManager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_Logic\EventManager.cpp" />
+    <ClCompile Include="Engine_Logic\EventStage.cpp" />
+    <ClCompile Include="Engine_Logic\EventStageOwnedStates.cpp" />
+    <ClCompile Include="Engine_Logic\EventWorldMap.cpp" />
+    <ClCompile Include="Engine_Logic\EventWorldMapOwnedStates.cpp" />
+    <ClCompile Include="Engine_Logic\SectionOwnedStates.cpp" />
+    <ClCompile Include="Engine_Logic\StageManager.cpp" />
+    <ClCompile Include="Engine_Logic\UIManager.cpp" />
+    <ClCompile Include="Engine_Math&amp;Physics\MathManager.cpp" />
+    <ClCompile Include="Engine_System\App.cpp" />
+    <ClCompile Include="Engine_System\Area.cpp" />
+    <ClCompile Include="Engine_System\AreaOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Attachment.cpp" />
+    <ClCompile Include="Engine_System\BaseEffect.cpp" />
+    <ClCompile Include="Engine_System\BaseGameEntity.cpp" />
+    <ClCompile Include="Engine_System\BaseManager.cpp" />
+    <ClCompile Include="Engine_System\BaseMessageDispatcher.cpp" />
+    <ClCompile Include="Engine_System\BaseObject.cpp" />
+    <ClCompile Include="Engine_System\BluePrint.cpp" />
+    <ClCompile Include="Engine_System\BluePrintList.cpp" />
+    <ClCompile Include="Engine_System\BluePrintListOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\BluePrintScroll.cpp" />
+    <ClCompile Include="Engine_System\BluePrintScrollOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Body.cpp" />
+    <ClCompile Include="Engine_System\BoldDustEffect.cpp" />
+    <ClCompile Include="Engine_System\BoldDustEffectOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Camera.cpp" />
+    <ClCompile Include="Engine_System\CameraManager.cpp" />
+    <ClCompile Include="Engine_System\Cart.cpp" />
+    <ClCompile Include="Engine_System\CartOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\CharacterEntity.cpp" />
+    <ClCompile Include="Engine_System\Commander.cpp" />
+    <ClCompile Include="Engine_System\CommanderOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Coordinates.cpp" />
+    <ClCompile Include="Engine_System\D3D.cpp" />
+    <ClCompile Include="Engine_System\DamageEffect.cpp" />
+    <ClCompile Include="Engine_System\DamageEffectOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\DiggyEffect.cpp" />
+    <ClCompile Include="Engine_System\DiggyEffectOwnedStates.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Dirt.cpp" />
+    <ClCompile Include="Engine_System\dsutil.cpp" />
+    <ClCompile Include="Engine_System\DustEffect.cpp" />
+    <ClCompile Include="Engine_System\DustEffectOwnedStates.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\DustKid.cpp" />
+    <ClCompile Include="Engine_System\DustKidOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\DustKing.cpp" />
+    <ClCompile Include="Engine_System\DustKingOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\dxutil.cpp" />
+    <ClCompile Include="Engine_System\EffectManager.cpp" />
+    <ClCompile Include="Engine_System\EntityDB.cpp" />
+    <ClCompile Include="Engine_System\Exhaust.cpp" />
+    <ClCompile Include="Engine_System\Firework.cpp" />
+    <ClCompile Include="Engine_System\Flower.cpp" />
+    <ClCompile Include="Engine_System\FlowerOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\GateKeeper.cpp" />
+    <ClCompile Include="Engine_System\GateKeeperOwnedStates.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Hero.cpp" />
+    <ClCompile Include="Engine_System\HeroOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Information.cpp" />
+    <ClCompile Include="Engine_System\Interact.cpp" />
+    <ClCompile Include="Engine_System\InteractOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Intro.cpp" />
+    <ClCompile Include="Engine_System\IntroOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Inventory.cpp" />
+    <ClCompile Include="Engine_System\InventoryOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Item.cpp" />
+    <ClCompile Include="Engine_System\ItemDB.cpp" />
+    <ClCompile Include="Engine_System\ItemOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Kindling.cpp" />
+    <ClCompile Include="Engine_System\Kirit.cpp" />
+    <ClCompile Include="Engine_System\KiritOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\LightEffect.cpp" />
+    <ClCompile Include="Engine_System\LightEffectOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Logo.cpp" />
+    <ClCompile Include="Engine_System\MainMenu.cpp" />
+    <ClCompile Include="Engine_System\Message.cpp" />
+    <ClCompile Include="Engine_System\MiniWorker.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\MiniWorkerOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\MouseManager.cpp" />
+    <ClCompile Include="Engine_System\MusicManager.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Object.cpp" />
+    <ClCompile Include="Engine_System\ObjectManager.cpp" />
+    <ClCompile Include="Engine_System\Organ.cpp" />
+    <ClCompile Include="Engine_System\OrganEntity.cpp" />
+    <ClCompile Include="Engine_System\Particle.cpp" />
+    <ClCompile Include="Engine_System\ParticleGun.cpp" />
+    <ClCompile Include="Engine_System\Producing.cpp" />
+    <ClCompile Include="Engine_System\ProducingOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Production.cpp" />
+    <ClCompile Include="Engine_System\ProductionOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\QuestionMark.cpp" />
+    <ClCompile Include="Engine_System\QuestionMarkOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\RayEffect.cpp" />
+    <ClCompile Include="Engine_System\RayEffectOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Script.cpp" />
+    <ClCompile Include="Engine_System\SmallInfo.cpp" />
+    <ClCompile Include="Engine_System\SmallInfoOwnedStates.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\Snow.cpp" />
+    <ClCompile Include="Engine_System\SparksEffect.cpp" />
+    <ClCompile Include="Engine_System\SparksEffectOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\StageChimenyOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\StageChimney.cpp" />
+    <ClCompile Include="Engine_System\StageDustBridge.cpp" />
+    <ClCompile Include="Engine_System\StageDustBridgeOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\StageFurnace.cpp" />
+    <ClCompile Include="Engine_System\StageGoodHope.cpp" />
+    <ClCompile Include="Engine_System\StageGoodHopeOwnedStates.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\StageHome.cpp" />
+    <ClCompile Include="Engine_System\StageMountain.cpp" />
+    <ClCompile Include="Engine_System\StageMountainOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\StdAfx.cpp" />
+    <ClCompile Include="Engine_System\String.cpp" />
+    <ClCompile Include="Engine_System\SystemFrame.cpp" />
+    <ClCompile Include="Engine_System\Terrain.cpp" />
+    <ClCompile Include="Engine_System\Timer.cpp" />
+    <ClCompile Include="Engine_System\Tinkle.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Engine_System\TinkleOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\View.cpp" />
+    <ClCompile Include="Engine_System\Wagoo.cpp" />
+    <ClCompile Include="Engine_System\WagooOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Wnd.cpp" />
+    <ClCompile Include="Engine_System\Woowo.cpp" />
+    <ClCompile Include="Engine_System\WoowoOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Worker.cpp" />
+    <ClCompile Include="Engine_System\WorkerOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\WorldMap.cpp" />
+    <ClCompile Include="Engine_System\WorldMapOwnedStates.cpp" />
+    <ClCompile Include="Engine_System\Yawo.cpp" />
+    <ClCompile Include="Engine_System\YawoOwnedStates.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseHeader.h" />
+    <ClInclude Include="EngineOutline.h" />
+    <ClInclude Include="Engine_Data Structures\AQueue.h" />
+    <ClInclude Include="Engine_Data Structures\Array.h" />
+    <ClInclude Include="Engine_Data Structures\Array2D.h" />
+    <ClInclude Include="Engine_Data Structures\Array3D.h" />
+    <ClInclude Include="Engine_Data Structures\AStack.h" />
+    <ClInclude Include="Engine_Data Structures\BinarySearchTree.h" />
+    <ClInclude Include="Engine_Data Structures\BinaryTree.h" />
+    <ClInclude Include="Engine_Data Structures\Bitvector.h" />
+    <ClInclude Include="Engine_Data Structures\DLinkedList.h" />
+    <ClInclude Include="Engine_Data Structures\DListIterator.h" />
+    <ClInclude Include="Engine_Data Structures\DListNode.h" />
+    <ClInclude Include="Engine_Data Structures\Graph.h" />
+    <ClInclude Include="Engine_Data Structures\GraphArc.h" />
+    <ClInclude Include="Engine_Data Structures\GraphNode.h" />
+    <ClInclude Include="Engine_Data Structures\HashEntry.h" />
+    <ClInclude Include="Engine_Data Structures\HashFuntion.h" />
+    <ClInclude Include="Engine_Data Structures\HashTable.h" />
+    <ClInclude Include="Engine_Data Structures\Heap.h" />
+    <ClInclude Include="Engine_Data Structures\LQueue.h" />
+    <ClInclude Include="Engine_Data Structures\LStack.h" />
+    <ClInclude Include="Engine_Data Structures\SLinkedList.h" />
+    <ClInclude Include="Engine_Data Structures\SListIterator.h" />
+    <ClInclude Include="Engine_Data Structures\SListNode.h" />
+    <ClInclude Include="Engine_Data Structures\Tree.h" />
+    <ClInclude Include="Engine_Data Structures\TreeIterator.h" />
+    <ClInclude Include="Engine_Logic\AIManager.h" />
+    <ClInclude Include="Engine_Logic\EventManager.h" />
+    <ClInclude Include="Engine_Logic\EventStage.h" />
+    <ClInclude Include="Engine_Logic\EventStageOwnedStates.h" />
+    <ClInclude Include="Engine_Logic\EventWorldMap.h" />
+    <ClInclude Include="Engine_Logic\EventWorldMapOwnedStates.h" />
+    <ClInclude Include="Engine_Logic\Section.h" />
+    <ClInclude Include="Engine_Logic\SectionManager.h" />
+    <ClInclude Include="Engine_Logic\SectionOwnedStates.h" />
+    <ClInclude Include="Engine_Logic\StageManager.h" />
+    <ClInclude Include="Engine_Logic\UIManager.h" />
+    <ClInclude Include="Engine_Math&amp;Physics\MathManager.h" />
+    <ClInclude Include="Engine_System\App.h" />
+    <ClInclude Include="Engine_System\Area.h" />
+    <ClInclude Include="Engine_System\AreaOwnedStates.h" />
+    <ClInclude Include="Engine_System\Attachment.h" />
+    <ClInclude Include="Engine_System\BaseEffect.h" />
+    <ClInclude Include="Engine_System\BaseGameEntity.h" />
+    <ClInclude Include="Engine_System\BaseManager.h" />
+    <ClInclude Include="Engine_System\BaseMessageDispatcher.h" />
+    <ClInclude Include="Engine_System\BaseObject.h" />
+    <ClInclude Include="Engine_System\BluePrint.h" />
+    <ClInclude Include="Engine_System\BluePrintList.h" />
+    <ClInclude Include="Engine_System\BluePrintListOwnedStates.h" />
+    <ClInclude Include="Engine_System\BluePrintScroll.h" />
+    <ClInclude Include="Engine_System\BluePrintScrollOwnedStates.h" />
+    <ClInclude Include="Engine_System\Body.h" />
+    <ClInclude Include="Engine_System\BoldDustEffect.h" />
+    <ClInclude Include="Engine_System\BoldDustEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\Camera.h" />
+    <ClInclude Include="Engine_System\CameraManager.h" />
+    <ClInclude Include="Engine_System\Cart.h" />
+    <ClInclude Include="Engine_System\CartOwnedStates.h" />
+    <ClInclude Include="Engine_System\CharacterEntity.h" />
+    <ClInclude Include="Engine_System\Commander.h" />
+    <ClInclude Include="Engine_System\CommanderOwnedStates.h" />
+    <ClInclude Include="Engine_System\Coordinates.h" />
+    <ClInclude Include="Engine_System\CrudeTImer.h" />
+    <ClInclude Include="Engine_System\D3D.h" />
+    <ClInclude Include="Engine_System\DamageEffect.h" />
+    <ClInclude Include="Engine_System\DamageEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\DiggyEffect.h" />
+    <ClInclude Include="Engine_System\DiggyEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\Dirt.h" />
+    <ClInclude Include="Engine_System\DustEffect.h" />
+    <ClInclude Include="Engine_System\DustEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\DustKid.h" />
+    <ClInclude Include="Engine_System\DustKidOwnedStates.h" />
+    <ClInclude Include="Engine_System\DustKing.h" />
+    <ClInclude Include="Engine_System\DustKingOwnedStates.h" />
+    <ClInclude Include="Engine_System\EffectManager.h" />
+    <ClInclude Include="Engine_System\EffectType.h" />
+    <ClInclude Include="Engine_System\EntityDB.h" />
+    <ClInclude Include="Engine_System\EntityID.h" />
+    <ClInclude Include="Engine_System\Exhaust.h" />
+    <ClInclude Include="Engine_System\Firework.h" />
+    <ClInclude Include="Engine_System\Flower.h" />
+    <ClInclude Include="Engine_System\FlowerOwnedStates.h" />
+    <ClInclude Include="Engine_System\GateKeeper.h" />
+    <ClInclude Include="Engine_System\GateKeeperOwnedStates.h" />
+    <ClInclude Include="Engine_System\Hero.h" />
+    <ClInclude Include="Engine_System\HeroOwnedStates.h" />
+    <ClInclude Include="Engine_System\Information.h" />
+    <ClInclude Include="Engine_System\Interact.h" />
+    <ClInclude Include="Engine_System\InteractOwnedStates.h" />
+    <ClInclude Include="Engine_System\Intro.h" />
+    <ClInclude Include="Engine_System\IntroOwnedStates.h" />
+    <ClInclude Include="Engine_System\Inventory.h" />
+    <ClInclude Include="Engine_System\InventoryOwnedStates.h" />
+    <ClInclude Include="Engine_System\Item.h" />
+    <ClInclude Include="Engine_System\ItemDB.h" />
+    <ClInclude Include="Engine_System\ItemOwnedStates.h" />
+    <ClInclude Include="Engine_System\Kindling.h" />
+    <ClInclude Include="Engine_System\Kirit.h" />
+    <ClInclude Include="Engine_System\KiritOwnedStates.h" />
+    <ClInclude Include="Engine_System\LightEffect.h" />
+    <ClInclude Include="Engine_System\LightEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\Logo.h" />
+    <ClInclude Include="Engine_System\MainMenu.h" />
+    <ClInclude Include="Engine_System\Message.h" />
+    <ClInclude Include="Engine_System\MessageTypes.h" />
+    <ClInclude Include="Engine_System\MiniWorker.h" />
+    <ClInclude Include="Engine_System\MiniWorkerOwnedStates.h" />
+    <ClInclude Include="Engine_System\MouseManager.h" />
+    <ClInclude Include="Engine_System\MusicManager.h" />
+    <ClInclude Include="Engine_System\Object.h" />
+    <ClInclude Include="Engine_System\ObjectManager.h" />
+    <ClInclude Include="Engine_System\Organ.h" />
+    <ClInclude Include="Engine_System\OrganEntity.h" />
+    <ClInclude Include="Engine_System\Particle.h" />
+    <ClInclude Include="Engine_System\ParticleGun.h" />
+    <ClInclude Include="Engine_System\Producing.h" />
+    <ClInclude Include="Engine_System\ProducingOwnedStates.h" />
+    <ClInclude Include="Engine_System\Production.h" />
+    <ClInclude Include="Engine_System\ProductionOwnedStates.h" />
+    <ClInclude Include="Engine_System\QuestionMark.h" />
+    <ClInclude Include="Engine_System\QuestionMarkOwnedStates.h" />
+    <ClInclude Include="Engine_System\RayEffect.h" />
+    <ClInclude Include="Engine_System\RayEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\Script.h" />
+    <ClInclude Include="Engine_System\SmallInfo.h" />
+    <ClInclude Include="Engine_System\SmallInfoOwnedStates.h" />
+    <ClInclude Include="Engine_System\Snow.h" />
+    <ClInclude Include="Engine_System\SparksEffect.h" />
+    <ClInclude Include="Engine_System\SparksEffectOwnedStates.h" />
+    <ClInclude Include="Engine_System\StageChimney.h" />
+    <ClInclude Include="Engine_System\StageChimneyOwnedStates.h" />
+    <ClInclude Include="Engine_System\StageDustBridge.h" />
+    <ClInclude Include="Engine_System\StageDustBridgeOwnedStates.h" />
+    <ClInclude Include="Engine_System\StageFurnace.h" />
+    <ClInclude Include="Engine_System\StageGoodHope.h" />
+    <ClInclude Include="Engine_System\StageGoodHopeOwnedStates.h" />
+    <ClInclude Include="Engine_System\StageHome.h" />
+    <ClInclude Include="Engine_System\StageMountain.h" />
+    <ClInclude Include="Engine_System\StageMountainOwnedStates.h" />
+    <ClInclude Include="Engine_System\State.h" />
+    <ClInclude Include="Engine_System\StateMachine.h" />
+    <ClInclude Include="Engine_System\Stdafx.h" />
+    <ClInclude Include="Engine_System\String.h" />
+    <ClInclude Include="Engine_System\SystemDefines.h" />
+    <ClInclude Include="Engine_System\SystemFrame.h" />
+    <ClInclude Include="Engine_System\Telegram.h" />
+    <ClInclude Include="Engine_System\Terrain.h" />
+    <ClInclude Include="Engine_System\Timer.h" />
+    <ClInclude Include="Engine_System\Tinkle.h" />
+    <ClInclude Include="Engine_System\TinkleOwnedStates.h" />
+    <ClInclude Include="Engine_System\View.h" />
+    <ClInclude Include="Engine_System\Wagoo.h" />
+    <ClInclude Include="Engine_System\WagooOwnedStates.h" />
+    <ClInclude Include="Engine_System\Wnd.h" />
+    <ClInclude Include="Engine_System\Woowo.h" />
+    <ClInclude Include="Engine_System\WoowoOwnedStates.h" />
+    <ClInclude Include="Engine_System\Worker.h" />
+    <ClInclude Include="Engine_System\WorkerOwnedStates.h" />
+    <ClInclude Include="Engine_System\WorldMap.h" />
+    <ClInclude Include="Engine_System\WorldMapOwnedStates.h" />
+    <ClInclude Include="Engine_System\Yawo.h" />
+    <ClInclude Include="Engine_System\YawoOwnedStates.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur" />
+    <None Include="cursor2.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SiderEngine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

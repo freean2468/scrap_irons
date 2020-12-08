@@ -1,0 +1,6 @@
+EntityType -4 (Production)
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	 	                   	   width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/Production/ProductionBody.dds	    800     600
+_message     0
+_attachment  2   300  252   0  1 1 1  0 0 0  0   0 0  1.0  	./Image/UserInterface/Production/Close.dds                   90      50    0 (CLOSE) 
+_attachment      180 -210   0  1 1 1  0 0 0  0   0 0  1.0  	./Image/UserInterface/Production/Button.dds                 260      90    1 (BUTTON)

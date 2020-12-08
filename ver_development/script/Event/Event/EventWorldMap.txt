@@ -1,0 +1,10 @@
+EntityType -3 (EventEntity)
+       	    use	    Pos     Sca    Rot     Cen    Alpha		 Texture adress						 width  height  Type
+_body 	     1    0    0 0  1 1 1  0 0 0  0   0 0  0.0	   ./Image/Event/Body.dds	           			   1      1
+_message     1    0  100 0  1 1 1  0 0 0  0   0 0  0.0	   ./Image/UserInterface/MessageWindow/BigMessageWindow.dds 	 500    370
+_attachment  6 -100 -100 0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Event/ScrapMountainDust.dds        			 570    340	 0
+_attachment     400 -100 0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Event/FurnaceDust.dds        			 530    350	 1
+_attachment     400  250 0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Event/ChimneyDust.dds        			 490    390	 2
+_attachment       0  250 0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Event/DustBridgeDust.dds        			 670    310	 3
+_attachment    -300  250 0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/Event/GoodHopeDust.dds        			 500    380	 4
+_attachment       0    0 0  1 1 1  0 0 0  0   0 0  0.0	   ./Image/Event/Ending.dds	        			1600   1200	 5

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SiderEngine", "SiderEngine.vcxproj", "{6519D381-E562-4E13-A002-EAF69C2F36A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6519D381-E562-4E13-A002-EAF69C2F36A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{6519D381-E562-4E13-A002-EAF69C2F36A5}.Debug|x86.Build.0 = Debug|Win32
+		{6519D381-E562-4E13-A002-EAF69C2F36A5}.Release|x86.ActiveCfg = Release|Win32
+		{6519D381-E562-4E13-A002-EAF69C2F36A5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3465D537-19BA-40FF-921D-EA7D7534ED0D}
+	EndGlobalSection
+EndGlobal

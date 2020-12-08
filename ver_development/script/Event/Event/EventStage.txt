@@ -1,0 +1,5 @@
+EntityType -3 (EventEntity)
+       	    use	    Pos     Sca    Rot     Cen    Alpha		 Texture adress						 width  height  Type
+_body 	     1    0    0 0  1 1 1  0 0 0  0   0 0  0.0	   ./Image/Event/Body.dds	           			   1      1
+_message     1    0    0 0  1 1 1  0 0 0  0   0 0  1.0	   ./Image/UserInterface/MessageWindow/BigMessageWindow.dds 	 600    370
+_attachment  1    0    0 0  1 1 1  0 0 0  0   0 0  0.0	   ./Image/Event/FirstMetting.dds        			 800    600	 0

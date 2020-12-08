@@ -1,0 +1,8 @@
+EntityType -12 (SmallInfo)
+       	    use	      Pos       Sca    Rot     Cen    Alpha	Texture adress(Right)	     				width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/SmallInfo/Woowo.dds    		  80     80
+_message     0   
+_attachment  4     0  -33   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/SmallInfo/GageBody.dds	 	  70     15    0 (GageBody)
+_attachment        0  -33   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/SmallInfo/BlueGageBar.dds	 	  70     15    1 (Blue)
+_attachment        0  -43   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/SmallInfo/GageBody.dds	 	  70     15    0 (GageBody)
+_attachment        0  -43   0  1 1 1  0 0 0  0   0 0  1.0	./Image/UserInterface/SmallInfo/RedGageBar.dds	 	  70     15    2 (Red)

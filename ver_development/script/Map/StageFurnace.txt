@@ -1,0 +1,5 @@
+EntityType 7 (Furnace)
+       	    use	    Pos       Sca    Rot     Cen    Alpha	  Texture adress(Left, Right)      width  height  Type
+_body 	     1    0    0  0  1 1 1  0 0 0    0    0 0   1.0	 ./Image/Maps/Furnace/Furnace.dds  2000   1500
+_message     0
+_attachment  1  375 -110  0  1 1 1  0 0 0 -160 -220 0   1.0	 ./Image/Maps/Furnace/Door.dds	    300    510     0

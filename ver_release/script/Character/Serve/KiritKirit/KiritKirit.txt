@@ -1,0 +1,7 @@
+EntityType 33 (KIRIT)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/KiritKirit/Body.dds       	 130    120
+_message     1    0  100     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  3    0    0     0  0 0 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/KiritKirit/Effect1.dds 	 140    140	0 (Effect1)
+_attachment  	  0    0     0  0 0 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/KiritKirit/Effect2.dds       140    140     1 (Effect2)
+_attachment  	  0    0     0  0 0 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/KiritKirit/Effect3.dds       140    140     2 (Effect3)

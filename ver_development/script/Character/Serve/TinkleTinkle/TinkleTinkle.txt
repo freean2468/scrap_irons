@@ -1,0 +1,6 @@
+EntityType 34 (TINKLE)
+       	    use	    Pos           Sca      Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0   1   1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/TinkleTinkle/Body.dds         80     70
+_message     1    0  100     0   1   1 1  0 0 0   0   0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  2   30    0     0   1   1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/TinkleTinkle/Eye.dds 	  80     70	0 (EYE)
+_attachment  	  0   10     0   1   1 1  0 0 0   0   0 0  0.5	   ./Image/Characters/Serve/TinkleTinkle/Effect.dds      130    120     1 (Effect)

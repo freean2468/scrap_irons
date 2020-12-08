@@ -1,0 +1,5 @@
+EntityType 2 (Logo)
+       	    use	     Pos           Sca     Rot      Cen   Alpha  Texture adress(Right)			      width   height Type
+_body 	     1    0     0   0    1 1 1  0 0   0   0   0 0  0.0	./Image/UserInterface/Logo/Logo.dds	       200     300
+_message     0
+_attachment  0

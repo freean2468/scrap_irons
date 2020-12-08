@@ -1,0 +1,275 @@
+﻿D:\Microsoft Visual Studio\2019\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(37,5): warning MSB4211: "IntermediateOutputPath" 속성에 처음으로 값이 설정되고 있지만 이미 "D:\Microsoft Visual Studio\2019\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(36,5)"에서 사용되었습니다.
+D:\Microsoft Visual Studio\2019\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(340,5): warning MSB4211: "CleanFile" 속성에 처음으로 값이 설정되고 있지만 이미 "D:\Microsoft Visual Studio\2019\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(36,5)"에서 사용되었습니다.
+cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  YawoOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Yawo.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  WorldMapOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  WorldMap.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  WorkerOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Worker.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  WoowoOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Woowo.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Wnd.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  WagooOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Wagoo.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  View.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  TinkleOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Timer.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Terrain.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  SystemFrame.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  String.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StdAfx.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageMountainOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageMountain.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  StageHome.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageGoodHope.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageFurnace.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageDustBridgeOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageDustBridge.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageChimney.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageChimenyOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  SparksEffectOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  SparksEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Snow.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  SmallInfo.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Script.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  RayEffectOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  RayEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  QuestionMarkOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  QuestionMark.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  ProductionOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Production.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  ProducingOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Producing.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  ParticleGun.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Particle.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  OrganEntity.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Organ.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  ObjectManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Object.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  MouseManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  MiniWorkerOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Message.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  MainMenu.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Logo.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  LightEffectOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  LightEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  KiritOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Kirit.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Kindling.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  ItemOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  ItemDB.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Item.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  InventoryOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Inventory.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  IntroOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Intro.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  InteractOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Interact.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Information.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  HeroOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Hero.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  GateKeeper.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  FlowerOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Flower.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Firework.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Exhaust.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EntityDB.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EffectManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  dxutil.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(60,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(112,9): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(136,5): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(160,9): warning C4996: '_tcsncpy': This function or variable may be unsafe. Consider using _tcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(574,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(624,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(698,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(713,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(722,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(734,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(788,5): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(819,5): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(839,9): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dxutil.cpp(877,19): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DustKingOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DustKing.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DustKidOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DustKid.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  DustEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  dsutil.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\dsutil.cpp(13,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'dxerr9.h': No such file or directory
+  Dirt.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DiggyEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DamageEffectOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DamageEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  D3D.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Coordinates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  CommanderOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Commander.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  CharacterEntity.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  CartOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Cart.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  CameraManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Camera.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BoldDustEffectOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BoldDustEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Body.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BluePrintScrollOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BluePrintScroll.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  BluePrintListOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BluePrintList.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BluePrint.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BaseObject.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BaseMessageDispatcher.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BaseManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BaseGameEntity.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  BaseEffect.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Attachment.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  AreaOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Area.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  App.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  MathManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  UIManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  StageManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  SectionOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EventWorldMapOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EventWorldMap.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EventStageOwnedStates.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EventStage.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  EventManager.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  HashFuntion.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Bitvector.cpp
+F:\16~24살 백업\1_게임만들자(완료)\Scrap irons\SiderEngine Ver.0.5\Engine_System\SystemDefines.h(23,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  코드를 생성하고 있습니다...

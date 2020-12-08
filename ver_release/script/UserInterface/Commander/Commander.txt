@@ -1,0 +1,6 @@
+EntityType -11 (Commander)
+       	    use	      Pos         Sca    Rot      Cen    Alpha	Texture adress(Right)	     			    width  height  Type
+_body 	     1     0  -50   0    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/Commander/Body.dds	     200    160
+_message     0
+_attachment  2     0  -70   0    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/Commander/BlueGageBody.dds     120     25     0 (Body)
+_attachment        0  -70   0    1 1 1  0 0 0   0   0 0  1.0	./Image/UserInterface/Commander/BlueGageBar.dds      120     25     1 (Bar)

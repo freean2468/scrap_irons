@@ -1,0 +1,11 @@
+EntityType 32 (YAWO)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0    0 0  0.0	   ./Image/Characters/Serve/YawoYawo/Body.dds       	 120     60
+_message     1    0  100     0  1 1 1  0 0 0   0    0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  7    0    0     0  1 1 1  0 0 0   0    0 0  1.0	   ./Image/Characters/Serve/YawoYawo/Body.dds 	          50     50	 0 (Body)
+_attachment  	 12   40     0  1 1 1  0 0 0   7   33 0  1.0	   ./Image/Characters/Serve/YawoYawo/Head.dds             60     80      1 (Head)
+_attachment  	-30   -8     0  1 1 1  0 0 0 -20  -20 0  1.0	   ./Image/Characters/Serve/YawoYawo/Leg1.dds	          50     50      2 (Leg1)
+_attachment  	-20  -12     0  1 1 1  0 0 0 -15  -10 0  1.0	   ./Image/Characters/Serve/YawoYawo/Leg2.dds  	          30     30      3 (Leg2)
+_attachment  	  0  -16     0  1 1 1  0 0 0  -7  -15 0  1.0	   ./Image/Characters/Serve/YawoYawo/Leg3.dds  	          20     40      4 (Leg3)
+_attachment  	 20  -12     0  1 1 1  0 0 0  15  -10 0  1.0	   ./Image/Characters/Serve/YawoYawo/Leg4.dds  	          40     30      5 (Leg4)
+_attachment  	 30   -8     0  1 1 1  0 0 0  25  -15 0  1.0	   ./Image/Characters/Serve/YawoYawo/Leg5.dds  	          60     40      6 (Leg5)

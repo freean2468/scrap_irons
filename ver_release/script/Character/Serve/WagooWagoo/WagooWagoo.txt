@@ -1,0 +1,8 @@
+EntityType 30 (WAGOO)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/WagooWagoo/Chin.dds       	  70     80
+_message     1    0  100     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  5   11   14     0  1 1 1  0 0 0  34   0 0  1.0	   ./Image/Characters/Serve/WagooWagoo/Head.dds 	  90     60	0 (Head)
+_attachment  	 15   10     0  1 1 1  0 0 0   5   2 0  1.0	   ./Image/Characters/Serve/WagooWagoo/Eye.dds 	          20     20     1 (Eye)
+_attachment  	-20  -25     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/WagooWagoo/Left.dds	          30     30     2 (Left)
+_attachment  	 16  -32     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Serve/WagooWagoo/Right.dds	  20     20     3 (Right)

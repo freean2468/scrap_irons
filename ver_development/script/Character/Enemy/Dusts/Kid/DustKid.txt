@@ -1,0 +1,7 @@
+EntityType 52 (DUSTKID)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress				     width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/Kid/Body.dds       165    160
+_message     0    
+_attachment  3    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/Kid/Sub.dds 	     200    190     0 (Sub)
+_attachment  	  0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/Kid/Core.dds 	     180    190	    1 (Core)
+_attachment  	 40   10     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Dusts/Kid/Eye.dds	      90     85     2 (Eye)

@@ -1,0 +1,6 @@
+EntityType -6 (Inventory)
+       	    use	      Pos         Sca     Rot     Cen    Alpha	Texture adress(Right)	     				width  height  Type
+_body 	     1     0    0   0  0.8 0.8 1  0 0 0  0   0 0  1.0	./Image/UserInterface/Inventory/Inventory.dds    	 466    245
+_message     1   300    0   0  0.5 0.5 1  0 0 0  0   0 0  1.0   ./Image/UserInterface/MessageWindow/MessageWindow.dds    450    250
+_attachment  2   245 -110   0  0.8 0.8 1  0 0 0  0   0 0  1.0	./Image/UserInterface/Inventory/MouseOver.dds	 	 150     57    0 (MouseOver)
+_attachment      245 -130   0  0.8 0.8 1  0 0 0  0   0 0  1.0	./Image/UserInterface/Inventory/MouseUnder.dds	 	 150     57    1 (MouseUnder)

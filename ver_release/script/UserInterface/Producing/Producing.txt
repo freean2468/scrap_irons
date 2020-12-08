@@ -1,0 +1,7 @@
+EntityType -9 (Producing)
+       	    use	      Pos       Sca    Rot      Cen    Alpha	Texture adress(Right)	 	                   	   width  height  Type
+_body 	     1     0    0   0  1 1 1  0 0 0    0   0 0  1.0	./Image/UserInterface/Producing/ProducingBody.dds	    400     300
+_message     0
+_attachment  3   -95    0   0  1 1 1  0 0 0   95   0 0  1.0  	./Image/UserInterface/Producing/DoorLeft.dds                210     300    0 (DOORLEFT) 
+_attachment       95    0   0  1 1 1  0 0 0  -95   0 0  1.0  	./Image/UserInterface/Producing/DoorRight.dds               210     300    1 (DOORRIGHT)
+_attachment        0    0   0  1 1 1  0 0 0    0   0 0  1.0  	./Image/UserInterface/Producing/NeedleMain.dds              200     200    2 (NEEDLE)

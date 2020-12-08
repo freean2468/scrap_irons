@@ -1,0 +1,8 @@
+EntityType 31 (WOOWO)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0    0 0  0.0	   ./Image/Characters/Serve/WoowoWoowo/Body.dds       	 120    140
+_message     1    0  100     0  1 1 1  0 0 0   0    0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  4  -30  -40     0  1 1 1  0 0 0   0  -30 0  1.0	   ./Image/Characters/Serve/WoowoWoowo/Left.dds 	  60     70	0 (Left)
+_attachment  	 20  -40     0  1 1 1  0 0 0   0  -30 0  1.0	   ./Image/Characters/Serve/WoowoWoowo/Right.dds          60     70     1 (Right)
+_attachment  	  0    0     0  1 1 1  0 0 0   0    0 0  1.0	   ./Image/Characters/Serve/WoowoWoowo/Body.dds	         120     90     2 (Body)
+_attachment  	 37    5     0  1 1 1  0 0 0   0    0 0  1.0	   ./Image/Characters/Serve/WoowoWoowo/Eye.dds  	  30     30     3 (Eye)

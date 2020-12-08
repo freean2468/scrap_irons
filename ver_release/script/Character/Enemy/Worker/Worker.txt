@@ -1,0 +1,12 @@
+EntityType 51 (WARKER)
+       	    use	    Pos          Sca    Rot     Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/PointBody.dds       	   1      1
+_message     1    0  100     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/UserInterface/MessageWindow/Window.dds 	 211    130
+_attachment  8 -110 -140     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Left.dds 	 	  95     90	0 (Left)
+_attachment  	 50 -140     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Right.dds 	          95     80     1 (Right)
+_attachment  	  0    0     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Body.dds	         410    370     2 (Body)
+_attachment    -205   50     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/Pipe.dds	         100    200     3 (Pipe)
+_attachment     240  -30     0  1 1 1  0 0 0 160 160 0  1.0	   ./Image/Characters/Enemy/Worker/light.dds	  	 360    360     4 (Light1)
+_attachment     240  -30     0  1 1 1  0 0 0 180 160 0  1.0	   ./Image/Characters/Enemy/Worker/light2.dds	  	 380    350     5 (Light2)
+_attachment     140 -173     0  1 1 1  0 0 0  40 -40 0  1.0	   ./Image/Characters/Enemy/Worker/MouseUnder.dds  	 130    110     6 (MouseUnder)
+_attachment     135  -45     0  1 1 1  0 0 0   0   0 0  1.0	   ./Image/Characters/Enemy/Worker/MouseUp.dds  	 130     80     7 (MouseOver)

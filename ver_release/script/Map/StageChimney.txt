@@ -1,0 +1,5 @@
+EntityType 8 (STAGECHIMNEY)
+       	    use	    Pos              Sca    Rot        Cen       Alpha	Texture adress(Right)					 width   height  Type
+_body 	     1    0     0   0    1   1 1  0 0    0   0    0 0    1.0  ./Image/Maps/Chimney/Chimney.dds      			 2000    1500
+_message     1 -300     0   0    1   1 1  0 0    0   0    0 0    1.0  ./Image/UserInterface/MessageWindow/MessageWindow.dds 	  300     150
+_attachment  0

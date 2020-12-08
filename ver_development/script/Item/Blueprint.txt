@@ -1,0 +1,5 @@
+ItemType -1 (BLUEPRINT)
+       	    use	    Pos       Sca      Rot     Cen    Alpha	  Texture adress(Right)      width  height  Type
+_body 	     1    0    0  0  1 1 1  0 0 0  0   0 0   1.0	 ./Image/Item/¼³°èµµ.dds       50     50
+_message     0
+_attachment  0  

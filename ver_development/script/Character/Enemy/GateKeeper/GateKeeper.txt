@@ -1,0 +1,8 @@
+EntityType 54 (GATEKEEPER)
+       	    use	    Pos          Sca    Rot       Cen    Alpha		 Texture adress					 width  height  Type
+_body 	     1    0    0     0  1 1 1  0 0 0    0    0 0  1.0	   ./Image/Characters/Enemy/GateKeeper/Body.dds       	 450    400
+_message     1 -100  200     0  1 1 1  0 0 0    0    0 0  0.0	   ./Image/UserInterface/MessageWindow/MessageWindow.dds 211    130
+_attachment  4    0 -220     0  1 1 1  0 0 0    0    0 0  0.4	   ./Image/Characters/Enemy/GateKeeper/BoostEffect.dds	 220    220	0 (1)
+_attachment       0 -220     0  1 1 1  0 0 0    0    0 0  0.4	   ./Image/Characters/Enemy/GateKeeper/BoostEffect.dds	 220    220     1 (2)
+_attachment       0 -220     0  1 1 1  0 0 0    0    0 0  0.4	   ./Image/Characters/Enemy/GateKeeper/BoostEffect.dds	 220    220     2 (3)
+_attachment       0    0     0  1 1 1  0 0 0  170  120 0  1.0	   ./Image/Characters/Enemy/GateKeeper/Arm.dds 	 	 550    410	3 (ARM)
