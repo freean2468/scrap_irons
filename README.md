@@ -23,4 +23,4 @@ Windows Only
 * Visual Studio 2019 환경으로 migration 시도하였으나 뜻대도 되지 않았고, DXD9 환경의 프로젝트를 다시 건들 계획도 없으므로 이 프로젝트는 여기서 종료.
 
 ### 플레이 영상
-https://youtu.be/JnyfegM8JYI
+https://youtu.be/HTJD6oPVP-o
