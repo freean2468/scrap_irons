@@ -1,6 +1,6 @@
 # scrap_irons
 
-![scrap_irons_preview]()
+![scrap_irons_preview](https://i.imgur.com/9wNyIzk.jpg)
 
 ### 제작 상세
 * 2009.10.24 ~ 2010.05.29
@@ -23,4 +23,4 @@ Windows Only
 * Visual Studio 2019 환경으로 migration 시도하였으나 뜻대도 되지 않았고, DXD9 환경의 프로젝트를 다시 건들 계획도 없으므로 이 프로젝트는 여기서 종료.
 
 ### 플레이 영상
-https://youtu.be/Hps6EmFi4_w
+https://youtu.be/JnyfegM8JYI
