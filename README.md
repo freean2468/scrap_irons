@@ -1,4 +1,5 @@
 # scrap irons (Indiegame)
+C++과 DirectX9을 이용해 개발된 인디게임
 
 ![scrap_irons_preview](https://i.imgur.com/9wNyIzk.jpg)
 
