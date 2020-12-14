@@ -1,4 +1,4 @@
-# scrap_irons
+# scrap irons (Indiegame)
 
 ![scrap_irons_preview](https://i.imgur.com/9wNyIzk.jpg)
 
